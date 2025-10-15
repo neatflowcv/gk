@@ -1,0 +1,10 @@
+@startuml class
+
+interface Filesystem
+interface Kubernetes
+class Service
+
+Filesystem <-- Service
+Kubernetes <-- Service
+
+@enduml
